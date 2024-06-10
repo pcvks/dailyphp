@@ -90,7 +90,7 @@ checkLoggedIn(); // Check if the user is logged in
                 <div class="col-md-6">
                   <form action="necessary.php" method="GET" class="form-inline">
                     <input name="query" type="search" class="form-control" required placeholder="Search">&nbsp;
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>&nbsp;
+                    <button type="submit" class="btn btn-danger"><i class="fas fa-search"></i></button>&nbsp;
                     </button>
                   </form>
                 </div>
@@ -108,7 +108,7 @@ checkLoggedIn(); // Check if the user is logged in
             <div class="col-md-6">
               <!-- general form elements -->
               <h1 class="text-center">ຟອມບັນທຶກທີ່ຈຳເປັນ</h1>
-              <div class="card card-primary">
+              <div class="card card-danger">
                 <div class="card-header">
                   <h3 class="card-title">ການບັນທຶກ</h3>
                 </div>
@@ -135,7 +135,7 @@ checkLoggedIn(); // Check if the user is logged in
                   <!-- /.card-body -->
 
                   <div class="card-footer">
-                    <button type="submit" class="btn btn-primary">ສົ່ງຟອມ</button>
+                    <button type="submit" class="btn btn-danger">ສົ່ງຟອມ</button>
                   </div>
                 </form>
               </div>

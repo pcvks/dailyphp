@@ -176,83 +176,83 @@ if (isset($_GET['success']) && $_GET['success'] === 'true') {
                   
                   <div class="row">
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">5:00-6:00</label>
+                    <label for="exampleInputEmail1">5:00 - 6:00</label>
                     <input type="text" name="five_six" class="form-control" id="exampleInputEmail1" value="ຕື່ນນອນ+ແຕ່ງກິນ+ອອກກຳລັງໄກ" required placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">6:00-7:00</label>
+                    <label for="exampleInputPassword1">6:00 - 7:00</label>
                     <input type="text" name="six_seven" class="form-control" id="exampleInputPassword1" value="ອາບນ້ຳ+ກິນເຂົ້າ" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">7:00-8:00</label>
+                    <label for="exampleInputEmail1">7:00 - 8:00</label>
                     <input type="text" name="seven_eight" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">8:00-9:00</label>
+                    <label for="exampleInputPassword1">8:00 - 9:00</label>
                     <input type="text" name="eight_nine" class="form-control" id="exampleInputPassword1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">9:00-10:00</label>
+                    <label for="exampleInputEmail1">9:00 - 10:00</label>
                     <input type="text" name="nine_ten" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">10:00-11:00</label>
+                    <label for="exampleInputEmail1">10:00 - 11:00</label>
                     <input type="text" name="ten_eleven" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">11:00-12:00</label>
+                    <label for="exampleInputPassword1">11:00 - 12:00</label>
                     <input type="text" name="eleven_twelve" class="form-control" id="exampleInputPassword1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">12:00-13:00</label>
+                    <label for="exampleInputEmail1">12:00 - 13:00</label>
                     <input type="text" name="twelve_thirteen" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">13:00-14:00</label>
+                    <label for="exampleInputPassword1">13:00 - 14:00</label>
                     <input type="text" name="thirteen_fourteen" class="form-control" id="exampleInputPassword1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">14:00-15:00</label>
+                    <label for="exampleInputEmail1">14:00 - 15:00</label>
                     <input type="text" name="fourteen_fifteen" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">15:00-16:00</label>
+                    <label for="exampleInputEmail1">15:00 - 16:00</label>
                     <input type="text" name="fifteen_sixteen" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">16:00-17:00</label>
+                    <label for="exampleInputPassword1">16:00 - 17:00</label>
                     <input type="text" name="sixteen_seventeen" class="form-control" id="exampleInputPassword1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">17:00-18:00</label>
+                    <label for="exampleInputEmail1">17:00 - 18:00</label>
                     <input type="text" name="seventeen_eighteen" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">18:00-19:00</label>
+                    <label for="exampleInputPassword1">18:00 - 19:00</label>
                     <input type="text" name="eighteen_nineteen" class="form-control" id="exampleInputPassword1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">19:00-20:00</label>
+                    <label for="exampleInputEmail1">19:00 - 20:00</label>
                     <input type="text" name="nineteen_twenty" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">20:00-21:00</label>
+                    <label for="exampleInputEmail1">20:00 - 21:00</label>
                     <input type="text" name="twenty_twentyone" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">21:00-22:00</label>
+                    <label for="exampleInputPassword1">21:00 - 22:00</label>
                     <input type="text" name="twentyone_twentytwo" class="form-control" id="exampleInputPassword1" value="ອາບນ້ຳ" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   
                   <div class="form-group ml-2">
-                    <label for="exampleInputEmail1">22:00-23:00</label>
+                    <label for="exampleInputEmail1">22:00 - 23:00</label>
                     <input type="text" name="twentytwo_twentythree" class="form-control" id="exampleInputEmail1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   </div>
                   <div class="form-group ml-2">
-                    <label for="exampleInputPassword1">23:00-5:00</label>
+                    <label for="exampleInputPassword1">23:00 - 5:00</label>
                     <input type="text" name="twentythree_five" class="form-control" id="exampleInputPassword1" placeholder="ສິ່ງທີ່ໄດ້ກະທຳ">
                   
                 </div>

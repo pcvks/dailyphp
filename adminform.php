@@ -91,11 +91,11 @@ if (isset($_GET['success']) && $_GET['success'] === 'true') {
                 <div class="card-body">
                  
                   <div class="row">
-                  <div class="form-group">
+                  <div class="form-group ml-5">
                     <label for="exampleInputEmail1">ອີເມວ</label>
                     <input type="email" name="email" class="form-control" id="exampleInputEmail1" required placeholder="ອີເມວ">
-                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <div class="form-group">
+                    </div>
+                  <div class="form-group ml-5">
                     <label for="exampleInputPassword1">ລະຫັດຜ່ານ</label>
                     <input type="password" name="password" class="form-control" id="exampleInputPassword1" required placeholder="*******">
                   </div>

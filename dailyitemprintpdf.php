@@ -126,25 +126,25 @@ if (isset($_GET['success']) && $_GET['success'] === 'true') {
               }
                 while ($row = mysqli_fetch_assoc($result)) { ?>
                 <div class="row">
-                    <p class="text-bold mr-5">05:00-06:00 <br><?php echo $row['five_six']?></p>
-                    <p class="text-bold mr-5">06:00-07:00 <br><?php echo $row['six_seven']?></p>
-                    <p class="text-bold mr-5">07:00-08:00 <br><?php echo $row['seven_eight']?></p>
-                    <p class="text-bold mr-5">08:00-09:00 <br><?php echo $row['eight_nine']?></p>
-                    <p class="text-bold mr-5">09:00-10:00 <br><?php echo $row['nine_ten']?></p>
-                    <p class="text-bold mr-5">10:00-11:00 <br><?php echo $row['ten_eleven']?></p>
-                    <p class="text-bold mr-5">11:00-12:00 <br><?php echo $row['eleven_twelve']?></p>
-                    <p class="text-bold mr-5">12:00-13:00 <br><?php echo $row['twelve_thirteen']?></p>
-                    <p class="text-bold mr-5">13:00-14:00 <br><?php echo $row['thirteen_fourteen']?></p>
-                    <p class="text-bold mr-5">14:00-15:00 <br><?php echo $row['fourteen_fifteen']?></p>
-                    <p class="text-bold mr-5">15:00-16:00 <br><?php echo $row['fifteen_sixteen']?></p>
-                    <p class="text-bold mr-5">16:00-17:00 <br><?php echo $row['sixteen_seventeen']?></p>
-                    <p class="text-bold mr-5">17:00-18:00 <br><?php echo $row['seventeen_eighteen']?></p>
-                    <p class="text-bold mr-5">18:00-19:00 <br><?php echo $row['eighteen_nineteen']?></p>
-                    <p class="text-bold mr-5">19:00-20:00 <br><?php echo $row['nineteen_twenty']?></p>
-                    <p class="text-bold mr-5">20:00-21:00 <br><?php echo $row['twenty_twentyone']?></p>
-                    <p class="text-bold mr-5">21:00-22:00 <br><?php echo $row['twentyone_twentytwo']?></p>
-                    <p class="text-bold mr-5">22:00-23:00 <br><?php echo $row['twentytwo_twentythree']?></p>
-                    <p class="text-bold mr-5">23:00-05:00 <br><?php echo $row['twentythree_five']?></p>
+                    <p class="mr-5"><b class="text-primary">05:00-06:00</b> <br> <?php echo "<b class='text-danger'>". $row['five_six']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">06:00-07:00</b> <br> <?php echo "<b class='text-danger'>". $row['six_seven']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">07:00-08:00</b> <br> <?php echo "<b class='text-danger'>". $row['seven_eight']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">08:00-09:00</b> <br> <?php echo "<b class='text-danger'>". $row['eight_nine']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">09:00-10:00</b> <br> <?php echo "<b class='text-danger'>". $row['nine_ten']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">10:00-11:00</b> <br> <?php echo "<b class='text-danger'>". $row['ten_eleven']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">11:00-12:00</b> <br> <?php echo "<b class='text-danger'>". $row['eleven_twelve']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">12:00-13:00</b> <br> <?php echo "<b class='text-danger'>". $row['twelve_thirteen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">13:00-14:00</b> <br> <?php echo "<b class='text-danger'>". $row['thirteen_fourteen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">14:00-15:00</b> <br> <?php echo "<b class='text-danger'>". $row['fourteen_fifteen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">15:00-16:00</b> <br> <?php echo "<b class='text-danger'>". $row['fifteen_sixteen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">16:00-17:00</b> <br> <?php echo "<b class='text-danger'>". $row['sixteen_seventeen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">17:00-18:00</b> <br> <?php echo "<b class='text-danger'>". $row['seventeen_eighteen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">18:00-19:00</b> <br> <?php echo "<b class='text-danger'>". $row['eighteen_nineteen']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">19:00-20:00</b> <br> <?php echo "<b class='text-danger'>". $row['nineteen_twenty']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">20:00-21:00</b> <br> <?php echo "<b class='text-danger'>". $row['twenty_twentyone']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">21:00-22:00</b> <br> <?php echo "<b class='text-danger'>". $row['twentyone_twentytwo']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">22:00-23:00</b> <br> <?php echo "<b class='text-danger'>". $row['twentytwo_twentythree']."</b>"?></p>
+                    <p class="mr-5"><b class="text-primary">23:00-05:00</b> <br> <?php echo "<b class='text-danger'>". $row['twentythree_five']."</b>"?></p>
 
                 </div>
                 <?php }?>
